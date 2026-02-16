@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.person{
+    width:100vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    margin:10px 0px;
+}
