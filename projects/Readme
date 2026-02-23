@@ -1,0 +1,235 @@
+# Week 1 — Calendar Project (GitHub + HTML/CSS/JS Portfolio Setup)
+
+Welcome. This repo is your starting point for building a **real portfolio** while learning **GitHub the practical way**.
+
+This week’s goal is simple:
+- Learn the GitHub workflow by using it daily
+- Build your first portfolio structure
+- Build and deploy your **Calendar project**
+
+----------------------------------------------------------------------------
+
+## What You Will Build (End of Week 1)
+
+By the end of this week you must have:
+
+1. A personal folder in this repo named after you  
+2. Your own HTML entry page linked from the main `index.html`
+3. Inside your folder:
+   - A portfolio page that will list your projects
+   - A `projects/` folder that contains your projects
+4. Your first project inside `projects/`: **Calendar**
+5. Everything pushed to GitHub with good commits
+
+----------------------------------------------------------------------------
+
+## Repo Structure (How This Works)
+
+When you clone this repo, you will see:
+- An `index.html` file (main entry for everyone)
+- A folder containing starter material / examples (provided by the instructor)
+
+You will create your own folder like this:
+
+# Your personal entry page
+/<your-name>/<your-name-Portfolio>.html 
+
+
+# Your projects folder
+/projects/calendar/
+    index.html 
+    styles.css
+
+Example (for someone named "Sanje"):
+
+/sanje/
+    sanjesPortfolio.html
+    /projects/
+        /calendar/
+            index.html
+            styles.css
+
+
+--------------------------------------------------------------------------------------
+
+## Rules (Non-Negotiable)
+
+- **Do not edit other people’s folders**
+- Your folder name must be **your name** (lowercase, no spaces)
+  - Example: `nhlakanipho`, `sanje`, `glory`
+- All your work must be inside **your folder**
+- Every project goes inside: `/<your-name>/projects/`
+
+======================= CLONING THE REPOSISTORY AND GETTING TO WORK ========================
+
+# Step-by-Step Instructions
+
+## 1 Clone the Repo
+
+### Option A: Using GitHub Desktop (recommended for beginners)
+1. Open GitHub Desktop
+2. Click **File → Clone repository**
+3. Select the repo (or paste the URL)
+4. Choose where to save it on your computer
+5. Click **Clone**
+
+### Option B: Using the Terminal
+1. Open a terminal in the folder where you want the repo
+2. Run:
+
+git clone https://github.com/Utopianboy99/2026-development.git
+cd 2026-development
+
+
+
+# (2) Create Your Personal Folder
+
+Inside the repo, create a folder with your name:
+Example:
+
+sanje/
+
+glory/
+
+emmanuel/
+
+✅ Folder name rules:
+
+lowercase only
+no spaces
+no special characters
+
+
+
+# (3) Create Your Personal HTML Entry Page
+
+Inside your folder, create:
+<your-name-portfolio>.html
+
+project folder :
+
+projects/
+
+
+# (4) Create Your Portfolio Page
+
+<your-name>Portfolio.html
+
+This page must:
+
+Show your name
+List your projects :
+
+Link to your Calendar project (once you build it)
+and other projects that you will build in the future
+
+
+
+# (5) Create Your Projects Folder
+
+Inside your folder, create:
+
+projects/
+
+Inside projects/, create your first project folder:
+
+calendar/
+
+So it becomes:
+
+/<your-name>/projects/calendar/
+
+
+# (6) Build the Calendar Project (Week 1 Work)
+
+Inside:
+
+/<your-name>/projects/calendar/
+
+Create these files:
+index.html
+styles.css
+
+This week your calendar must include:
+
+✅ Calendar Requirements
+
+- Uses HTML tables
+- Uses basic CSS
+- Displays days of the week
+- Displays a month layout
+- Has clean styling and readable spacing
+
+# Bonus (if you finish early):
+
+- Highlight today
+- Buttons for next/previous month
+
+==============Linking Your Page Into the Main index.html===========================
+
+After you create your personal folder and portfolio.html, you must add your link to the main repo index.html.
+
+Example:
+
+<div class="person" id="sanje">
+    <a href="sanje.html">
+        Sanje
+    </a>
+</div>
+
+<div class="person" id="hitlure">
+    <a href="hitlure.html">
+        Hitlure
+    </a>
+</div>
+
+Add your link below the the last block, just like the examples provided above
+
+## This allows anyone to open the repo and click into each student’s work.
+
+
+======================= How to Save and Push Your Work (GitHub Workflow) =========================
+
+# NB : Please make sure that you create your own branch first 
+    Here's how you'll create your own branch
+
+    (1) git checkout -b <name of your branch> 
+
+    OR
+
+    (2) git switch -c <name of your branch>
+
+# Once you are done with that, you can do the following :
+
+# (1) Check what changed
+git status
+
+# (2) Add changes
+git add .
+
+# (3) Add a commit message (Describe what changed in the code)
+git commit -m "Add personal folder and portfolio structure"
+
+# Good commit messages:
+
+Add personal folder and portfolio structure
+Create portfolio page with calendar link
+Build calendar table layout
+Style calendar grid
+
+# Bad commit messages:
+
+update
+fix
+changes
+
+# (4) Push the changes
+
+git push https://github.com/Utopianboy99/2026-development.git
+
+# Common Mistakes (Avoid These)
+- Putting your work outside your personal folder
+- Forgetting to link your page in the main index.html
+- Broken links due to wrong paths
+- Using spaces or uppercase in folder names
+- Huge commits with everything at once

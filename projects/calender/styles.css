@@ -1,0 +1,164 @@
+body {
+    background-image: url("star.png");
+    background-color: #a23636;
+    text-align: center;
+    margin-top: 30px;
+    
+    
+}
+table {
+    background-color: #e07575;
+    height:400px;
+    width: 100%;
+    border-style: hidden;
+    border-color:#520a17;
+    border-width: 6px;
+    border-collapse: separate;
+    
+}
+
+
+thead {
+    height:60px;
+    width: 15px;
+
+}
+th {
+    border-style:double;
+    border-width: 6px;
+    border-color: #520a17;
+}
+
+table, th, td {
+    text-align: center;
+    border: hidden 4px;
+    border-collapse: separate;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 30px;
+    
+}
+
+th, td{
+    padding:5px;
+    background-color: #b65858;
+}
+
+th{
+    background-color: #670f0fdb;
+    border-style:hidden;
+    border-color: #670f0fdb;
+}
+
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  color: #310505;
+
+}
+
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-size: 18px;
+  color: #520a0a;
+}
+
+h2 {
+    border:4px hidden #670f0fdb; 
+    border-radius: 8px;
+    border-width: 120px;
+    height: 75px;
+    background-color: #641515db;
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-shadow: 7px 7px 14px rgb(57, 4, 4);
+    
+}
+p {
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+
+}
+
+:link{
+    color:#520a0a;
+    text-decoration: none;
+}
+
+
+:visited{
+    color: #520a0a;
+}
+
+td:hover {
+    background-color: #eeabab;
+}
+
+img {
+    float: right;
+    margin-right: 50px;
+    border: 1px hidden;
+    border-radius: 20px;
+    margin-top: 55px;
+
+}
+
+h1 {
+    border: 1px hidden;
+    border-radius: 30px;
+    background-color: #eeababd3;
+}
+
+div {
+    background-color: #e07575dd;
+    border: 1px hidden;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.divtitle1 {
+    border: 1px hidden;
+    border-radius: 10px;
+    background-color: #eeababcf;
+    height: 25px;
+    margin-right: 500px;
+    margin-top: 40px;
+    
+}
+
+.feb {
+    border: 2px dotted #520a0a;
+    border-radius: 10px;
+    background-color: #ee9393;
+    text-align: center;
+    
+}
+
+.valentines{
+    margin-right: 500px;
+    padding: 15px 15px 15px 15px;
+    color: #560808;
+    font-size: large;
+}
+
+.independence {
+    margin-right: 500px;
+    padding: 15px 15px 15px 15px;
+    color: #560808;
+    font-size: large;
+}
+
+.sleep {
+    margin-right: 600px;
+    padding: 15px 15px 15px 15px;
+    color: #560808;
+    font-size: large;
+}

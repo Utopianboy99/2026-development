@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Calendar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .calendar {
+      width: 100%;
+      max-width: 520px;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    .calendar-header {
+      padding: 16px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      border-bottom: 1px solid #eee;
+      background: #fafafa;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #eee;
+      width: 14.285%;
+      height: 70px;
+      text-align: right;
+      vertical-align: top;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    th {
+      background: #f0f3f7;
+      font-weight: bold;
+      text-align: center;
+      height: 45px;
+      padding: 10px 0;
+    }
+
+    td {
+      background: white;
+    }
+
+    td:hover {
+      background: #f7fbff;
+    }
+
+    /* Empty cells (days not in this month) */
+    .empty {
+      background: #fafafa;
+      color: #bbb;
+    }
+
+    /* Highlight today (manually move this class to the correct day) */
+    .today {
+      background: #eaf4ff;
+      border: 2px solid #3b82f6;
+      font-weight: bold;
+    }
+
+    /* Small event label (optional) */
+    .event {
+      margin-top: 8px;
+      font-size: 12px;
+      text-align: left;
+      padding: 4px 6px;
+      border-radius: 6px;
+      background: #e7f7ee;
+      color: #166534;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="calendar">
+    <div class="calendar-header">February 2026</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Sun</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+          <th>Sat</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td class="empty"></td>
+          <td>1</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+        </tr>
+
+        <tr>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+        </tr>
+
+        <tr>
+          <td class="today">16 <span class="event">Today</span></td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+          <td>22</td>
+        </tr>
+
+        <tr>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td class="empty"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
