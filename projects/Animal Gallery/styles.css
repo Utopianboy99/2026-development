@@ -1,0 +1,239 @@
+/* UI ELEMENTS */
+
+/* Font */
+.calistoga-regular {
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 80px;
+  color: #722819;
+  text-align: center;
+
+}
+
+.happy-monkey-regular {
+  font-family: "Happy Monkey" system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color:#3d2b1f;
+  text-align: center;
+  
+
+}
+
+.happy-monkey-regular2 {
+  font-family: "Happy Monkey" system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #3d2b1f;
+
+}
+
+.mouse-memoirs-regular {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: #332c0f;
+}
+
+.fauna-one-regular {
+  font-family: "Fauna One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #3d2b1f;
+}
+
+/* Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px 30px 30px 30px;
+    background-color: #635d3a;
+    height: 25px;
+    border: 1px hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+a:hover {
+    background-color: #7f7742;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px hidden;
+    border-radius: 7px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+/* Header */
+
+.title-block {
+  background-color: #7f7742dc;
+  border: 1px hidden;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+
+}
+
+body {
+  background-color: #9b966e;
+  background-image: url("paw.png");
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  background-color: #8e875b;
+  border: 1px hidden;
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/* MAIN CONTENT */
+
+/* Homepage */
+
+.parent-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #8e875b;
+  padding: 90px 90px 90px 90px;
+}
+
+.welcome-text {
+  border: 1px hidden;
+  border-radius:10px;
+  background-color: #605b39;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  
+}
+
+.welcome-image {
+  background-color: #6a643b;
+  border: 1px hidden;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.call-to-action {
+  text-align: center;
+  background-color: #7f7742e0;
+  border: 1px hidden;
+  border-radius: 6px;
+  padding: 15px 15px 15px 15px;
+  
+}
+
+
+.button-container {
+  height: 40px;
+  width: 800px;
+  background-color: #8e875b;
+  border: 1px hidden;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Animal Gallery Pages */
+
+.gallary-titles {
+  background-color: #6a643bed;
+  border: 1px hidden;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+
+
+}
+
+.descriptions {
+  background-color: #7f7742d7;
+  display: flex;
+  justify-content: space-around;
+  border: 1px hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  
+}
+
+.breed-descriptions {
+  background-color: #7f7742;
+  border: 1px hidden;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+  margin-left: 90px;
+  margin-right: 80px;
+}
+
+.breed-image {
+  border: 1px hidden;
+  height: 301px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+/* Contact Us */
+
+.contactus-form {
+  background-color: #554f2c;
+  margin-left: 120px;
+  margin-right: 120px;
+  border: 1px hidden;
+  border-radius: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+
+
+}
+
+input {
+  background-color: #8e875bec;
+  border: 1px hidden;
+  border-radius: 10px;
+  height: 40px;
+  width: 600px;
+  
+}
+
+.input-box-message {
+  background-color: #8e875bec;
+  border: 1px hidden;
+  border-radius: 10px;
+  height: 100px;
+  width: 600px;
+  
+}
+
